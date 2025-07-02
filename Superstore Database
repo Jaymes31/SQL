@@ -44,5 +44,5 @@ select SUM (price), 'Kitchen_Supplies'
 from superstore;
 
 #Show a statistic about how many purifiers are in stock. 
-SELECT COUNT (stock_quantity), 'Air_Purifier'
+SELECT SUM (stock_quantity), 'Air_Purifier'
 FROM superstore;
